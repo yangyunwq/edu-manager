@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * Hello world!
  */
-@SpringBootApplication(scanBasePackages = {"com.yuxiu.edu.controller","com.yuxiu.edu.service","com.yuxiu.edu.mapper"})
+@SpringBootApplication(scanBasePackages = "com.yuxiu.edu")
 @MapperScan(basePackages = "com.yuxiu.edu.mapper")
 public class App {
     public static void main(String[] args) {

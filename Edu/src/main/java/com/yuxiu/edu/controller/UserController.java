@@ -1,11 +1,15 @@
 package com.yuxiu.edu.controller;
 
+import com.yuxiu.edu.exception.UserException;
 import com.yuxiu.edu.model.User;
 import com.yuxiu.edu.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 
 /**
  * @author yangyun
@@ -13,28 +17,28 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Controller
 @RequestMapping("user")
-public class UserController {
+public class UserController extends BaseController<User> {
     @Autowired
     UserService userService;
 
-    @RequestMapping("login")
-    public String login() {
-        return "Default";
+    @RequestMapping("main")
+    public String login(User user, HttpSession session, boolean remember, String code) {
+        return userService.login(user, session, remember, code);
     }
 
     @RequestMapping("userManager")
     public String userManager() {
-        return "Modules/User/UserManage";
+        return MANAGE_PAGE;
     }
 
     @RequestMapping("userInfo")
     public String userInfo() {
-        return "Modules/User/UserInfo";
+        return INFO_PAGE;
     }
 
     @RequestMapping("userEdit")
     public String userEdit() {
-        return "Modules/User/UserEdit";
+        return EDIT_PAGE;
     }
 
 }

@@ -3,7 +3,7 @@
 <head>
 	<link rel="Stylesheet" type="text/css" href="${request.contextPath}/assets/Styles/bridging.css"/>
 	<script type="text/javascript" src="${request.contextPath}/assets/Scripts/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="${request.contextPath}/static/assets/Scripts/common.js"></script>
+	<script type="text/javascript" src="${request.contextPath}/assets/Scripts/common.js"></script>
 </head>
 <body>
     <form id="form1">
