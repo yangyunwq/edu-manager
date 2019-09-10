@@ -1,0 +1,22 @@
+server:
+  port: 80
+spring:
+  aop:
+    auto: true
+    proxy-target-class: true
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/edu?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+  freemarker:
+    request-context-attribute: request
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  type-aliases-package: com.yuxiu.edu.model

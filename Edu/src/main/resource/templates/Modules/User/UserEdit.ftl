@@ -7,7 +7,7 @@
 	<script type="text/javascript" src="${request.contextPath}/assets/Scripts/common.js"></script>
 	<script type="text/javascript">
 	function userSave(){
-		$("#userForm").attr("action","");
+		$("#userForm").attr("action","${request.contextPath}/user/addUser");
 		$("#userForm").submit();
 	}
 	</script>

@@ -1,0 +1,72 @@
+GET http://localhost/user/list1?pageNum=3&pageNum=2&pageNum=1&pageNum=1&pageNum=2&pageNum=10
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-08-08T103314.200.json
+
+###
+
+GET http://localhost/user/list1?pageNum=3&pageNum=2&pageNum=1&pageNum=1&pageNum=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-08-08T103307.200.json
+
+###
+
+GET http://localhost/user/list1?pageNum=3&pageNum=2&pageNum=1&pageNum=1&pageNum=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-08-08T101213.200.json
+
+###
+
+GET http://localhost/user/list?pageNum=3&pageNum=2&pageNum=1&pageNum=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-08-08T101150.404.json
+
+###
+
+GET http://localhost/user/list?pageNum=3&pageNum=2&pageNum=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-08-08T101117.404.json
+
+###
+
+GET http://localhost/user/list?pageNum=3&pageNum=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-08-08T101101.404.json
+
+###
+
+GET http://localhost/user/list?pageNum=3
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-08-08T101015.200.json
+
+###
+
+GET http://localhost/user/list
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-08-08T100920.200.json
+
+###
+
+GET http://localhost/user
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-08-08T100901.404.json
+
+###
+

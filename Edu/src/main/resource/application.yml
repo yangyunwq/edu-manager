@@ -11,6 +11,11 @@ spring:
     password: root
   freemarker:
     request-context-attribute: request
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
 mybatis:
   configuration:
     map-underscore-to-camel-case: true

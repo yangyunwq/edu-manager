@@ -1,0 +1,57 @@
+[
+  {
+    "username": 100,
+    "tel": 100,
+    "email": 100,
+    "qq": 100,
+    "alipay": 100,
+    "name": 100,
+    "amount": 100,
+    "balance": 100,
+    "register": 100
+  },
+  {
+    "username": 101,
+    "tel": 101,
+    "email": 101,
+    "qq": 101,
+    "alipay": 101,
+    "name": 101,
+    "amount": 101,
+    "balance": 101,
+    "register": 101
+  },
+  {
+    "username": 102,
+    "tel": 102,
+    "email": 102,
+    "qq": 102,
+    "alipay": 102,
+    "name": 102,
+    "amount": 102,
+    "balance": 102,
+    "register": 102
+  },
+  {
+    "username": 103,
+    "tel": 103,
+    "email": 103,
+    "qq": 103,
+    "alipay": 103,
+    "name": 103,
+    "amount": 103,
+    "balance": 103,
+    "register": 103
+  },
+  {
+    "username": 104,
+    "tel": 104,
+    "email": 104,
+    "qq": 104,
+    "alipay": 104,
+    "name": 104,
+    "amount": 104,
+    "balance": 104,
+    "register": 104
+  }
+]

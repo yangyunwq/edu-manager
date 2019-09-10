@@ -8,5 +8,5 @@ import org.apache.ibatis.annotations.Mapper;
  * @date 2019-08-05 18:14
  */
 public interface UserMapper {
-    User login(User user);
+    User login(String username);
 }
